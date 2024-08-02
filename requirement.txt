@@ -1,0 +1,12 @@
+streamlit
+streamlit-pills
+streamlit-extras
+faiss-cpu
+langchain
+langchain-community
+langchain-openai
+langchainhub
+openai
+sentence_transformers
+pypdf
+flashrank
