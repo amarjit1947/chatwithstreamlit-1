@@ -1,6 +1,7 @@
 streamlit
 streamlit-pills
 streamlit-extras
+langchain_openai
 faiss-cpu
 langchain
 langchain-community
