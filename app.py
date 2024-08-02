@@ -7,12 +7,6 @@ openai_api_key = st.sidebar.text_input("open AI API Key", type='password')
 def generate_response(input_text):
     model= ChatOpenAI(temperature=0.7,api_key=openai_api_key,)
     st.info(model.invoke(input_text))
-
-
-# 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
-#res = requests.get('https://raw.githubusercontent.com/brmson/dataset-sts/master/data/sts/sick2014/SICK_train.txt',verify=False)
-
-
 with st.form("my_form"):
     text = st.text_area(
         "Enter text:",
